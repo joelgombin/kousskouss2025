@@ -8,3 +8,10 @@ wheels/
 
 # Virtual environments
 .venv
+
+.env
+
+images/*
+programme_pdf/*
+
+.DS_Store
