@@ -38,5 +38,5 @@ class Restaurant(BaseModel):
     telephone: str | None = Field(default=None, pattern=r'^(?:(?:\+|00)33|0)\s*[1-9](?:[\s.-]*\d{2}){4}$', description="Le numéro de téléphone du restaurant")
     chef: str | None = Field(default=None, description="Le nom du chef, de la cheffe ou des chefs du restaurant")
     quartier: Quartier = Field(description="Le quartier du restaurant")
-    plats: List[Plat] = Field(description="La liste des plats proposés par ce restaurant")
+    plats: List[Plat] = Field(description="La liste des plats proposés par ce restaurant. Attention il peut y avoir plusieurs plats par restaurant et ce n'est pas toujours très explicite. Par exemple 'Soupe de pois chiches au cumin, ail et harissa maison et ses garnitures au choix : oeufs thon, hargma. Couscous à l’agneau et ses légumes.' renvoie à deux plars, une soupe de pois chiches, et un couscous.")
 
