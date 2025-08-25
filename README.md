@@ -6,7 +6,7 @@ Ce projet vise à extraire les données structurées du programme de Kouss•kou
 
 ## Fonctionnalités
 
-- [ ] Extraire les données structurées du programme de Kouss•kouss
+- [X] Extraire les données structurées du programme de Kouss•kouss
 - [ ] Exposer les données structurées sur un site web
 - [ ] Permettre de filtrer les données par restaurant, par plat, par prix, etc.
 - [ ] Permettre de trier les données par restaurant, par plat, par prix, etc.
