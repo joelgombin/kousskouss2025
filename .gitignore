@@ -15,3 +15,26 @@ images/*
 programme_pdf/*
 
 .DS_Store
+output/*
+mlruns/*
+debug_*
+demo_*
+temp_*
+test_*
+*.jpg
+*.png
+*.jpeg
+*.pdf
+*.txt
+*.csv
+*.json
+*.xml
+*.yaml
+analyze_*.py
+check_*.py
+create_*.py
+diagnose_*.py
+fix_*.py
+*.zip
+ultimate_solution.py
+verify_*.py
