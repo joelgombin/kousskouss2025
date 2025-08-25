@@ -38,3 +38,4 @@ fix_*.py
 *.zip
 ultimate_solution.py
 verify_*.py
+*.log
